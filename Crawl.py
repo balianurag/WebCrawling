@@ -2,7 +2,7 @@ from selenium.webdriver.edge.options import Options
 
 from selenium import webdriver
 
-driver = webdriver.Edge()
+driver = webdriver.Edge('Path of .exe file of webdriver') # need to specify the MicrosoftWebDriver as path 
 
 driver.get("'https://www.indiatoday.in/india-sitemap.xml'")
 
